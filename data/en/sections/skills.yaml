@@ -1,0 +1,143 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Cloud
+  filter: "cloud"
+- name: IaC & Config
+  filter: "iac"
+- name: CI/CD
+  filter: "cicd"
+- name: Containers
+  filter: "containers"
+- name: Observability
+  filter: "observability"
+- name: Databases
+  filter: "databases"
+- name: Languages
+  filter: "languages"
+
+# Your Skills.
+skills:
+- name: Terraform
+  logo: /images/sections/skills/terraform.svg
+  summary: "Multi-account, multi-cloud estates: reusable modules, remote state, environment promotion, and landing-zone governance."
+  categories: ["iac"]
+  url: "https://www.terraform.io/"
+
+- name: Google Cloud
+  logo: /images/sections/skills/googlecloud.svg
+  summary: "Cloud Run, Compute Engine MIGs, GKE, Cloud SQL, Load Balancing, Cloud Armor, Artifact Registry, Secret Manager."
+  categories: ["cloud"]
+  url: "https://cloud.google.com/"
+
+- name: AWS
+  logo: /images/sections/skills/aws.svg
+  summary: "EC2, Auto Scaling Groups, VPC, S3, RDS/Aurora, IAM, Organizations with SCP guardrails."
+  categories: ["cloud"]
+  url: "https://aws.amazon.com/"
+
+- name: Azure
+  logo: /images/sections/skills/azure.svg
+  summary: "App registrations, service principals, and multi-cloud IaC estates."
+  categories: ["cloud"]
+  url: "https://azure.microsoft.com/"
+
+- name: Kubernetes
+  logo: /images/sections/skills/kubernetes.svg
+  summary: "EKS, GKE, Kubespray, RKE — provisioning, version/node-pool upgrades, and workload operations."
+  categories: ["containers"]
+  url: "https://kubernetes.io/"
+
+- name: Docker
+  logo: /images/sections/skills/docker.svg
+  summary: "Containerized services and Docker Swarm clusters; images in Artifact Registry with immutable tags."
+  categories: ["containers"]
+  url: "https://www.docker.com/"
+
+- name: Helm
+  logo: /images/sections/skills/helm.svg
+  summary: "Versioned chart releases, updates, and rollouts for platform services."
+  categories: ["containers"]
+  url: "https://helm.sh/"
+
+- name: GitHub Actions
+  logo: /images/sections/skills/githubactions.svg
+  summary: "Plan-on-PR / apply-on-merge, reusable workflows, approval gates, blue/green deploys, keyless OIDC."
+  categories: ["cicd"]
+  url: "https://github.com/features/actions"
+
+- name: GitLab CI
+  logo: /images/sections/skills/gitlab.svg
+  summary: "Pipelines for build, test, and deployment of microservice and game-server workloads."
+  categories: ["cicd"]
+  url: "https://docs.gitlab.com/ee/ci/"
+
+- name: Jenkins
+  logo: /images/sections/skills/jenkins.svg
+  summary: "Automated build and deployment pipelines reducing human error and speeding up releases."
+  categories: ["cicd"]
+  url: "https://www.jenkins.io/"
+
+- name: Ansible
+  logo: /images/sections/skills/ansible.svg
+  summary: "Playbooks and modules for provisioning, patching, and configuration management."
+  categories: ["iac"]
+  url: "https://www.ansible.com/"
+
+- name: Prometheus
+  logo: /images/sections/skills/prometheus.svg
+  summary: "Metrics, PromQL, and alerting; Google Managed Prometheus via OpenTelemetry collectors."
+  categories: ["observability"]
+  url: "https://prometheus.io/"
+
+- name: Grafana
+  logo: /images/sections/skills/grafana.svg
+  summary: "Dashboards and Grafana Cloud; SLOs, burn-rate alerts, and uptime checks."
+  categories: ["observability"]
+  url: "https://grafana.com/"
+
+- name: PostgreSQL
+  logo: /images/sections/skills/postgresql.svg
+  summary: "Cloud SQL, Amazon RDS/Aurora — IAM auth, PITR, read replicas, and partitioning."
+  categories: ["databases"]
+  url: "https://www.postgresql.org/"
+
+- name: Redis
+  logo: /images/sections/skills/redis.svg
+  summary: "Memorystore / Redis for caching and low-latency state."
+  categories: ["databases"]
+  url: "https://redis.io/"
+
+- name: Go
+  logo: /images/sections/skills/go.svg
+  summary: "Backend services and tooling; schema migrations with golang-migrate."
+  categories: ["languages"]
+  url: "https://go.dev/"
+
+- name: Python
+  logo: /images/sections/skills/python.svg
+  summary: "Automation, tooling, and operational scripting."
+  categories: ["languages"]
+  url: "https://www.python.org/"
+
+- name: Bash
+  logo: /images/sections/skills/bash.svg
+  summary: "Shell scripting for automation and operations across Linux fleets."
+  categories: ["languages"]
+  url: "https://www.gnu.org/software/bash/"
+
+- name: Linux
+  logo: /images/sections/skills/linux.svg
+  summary: "Primary operating system; data-center and cloud fleet administration."
+  categories: ["cloud", "containers"]
+  url: "https://www.kernel.org/"

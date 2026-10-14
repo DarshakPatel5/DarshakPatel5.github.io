@@ -1,0 +1,18 @@
+# Author profile
+name: "Darshak Patel"
+nickname: "Darshak"
+greeting: "Hi, I am"
+image: "images/author/darshak.png"
+
+# Contact information, shown in the footer.
+contactInfo:
+  email: "darshakpatel52@hotmail.com"
+  github: DarshakPatel5
+  linkedin: darshak-patel-devops
+
+# Rotating tagline shown under your name on the landing page.
+summary:
+  - a DevOps Engineer
+  - multi-cloud across GCP, AWS & Azure
+  - an Infrastructure-as-Code & CI/CD specialist
+  - I make infrastructure boring, reproducible & safe to change

@@ -1,0 +1,13 @@
+# Footer copyright
+copyright: "© 2026 Darshak Patel"
+
+# Meta description for search engines.
+description: "Darshak Patel — DevOps Engineer. Multi-cloud (GCP · AWS · Azure), Terraform, Kubernetes, and CI/CD."
+
+# OpenGraph headers for link previews.
+openGraph:
+  title: "Darshak Patel — DevOps Engineer"
+  type: website
+  description: "DevOps Engineer. Multi-cloud (GCP · AWS · Azure), Terraform, Kubernetes, and CI/CD."
+  image: images/author/darshak.png
+  url: https://darshakpatel5.github.io

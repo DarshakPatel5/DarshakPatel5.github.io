@@ -1,0 +1,35 @@
+# section information
+section:
+  name: Certifications & Awards
+  id: accomplishments
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+# Your accomplishments
+accomplishments:
+- name: 'Google Cloud DevOps Award 2022 — "Unleashing the Full Power of the Cloud"'
+  timeline: "2022"
+  organization:
+    name: Google Cloud
+    url: https://cloud.google.com
+  courseOverview: "Recognized as part of the Improbable DevOps team for a cloud-native CI/CD-as-a-Service platform that cut build costs by ~70%, scaled daily builds sixfold, and reached a 99.99% build success rate."
+  certificateURL: "https://cloud.google.com/blog/products/devops-sre/devops-awards-2022-winner-improbable"
+
+- name: Red Hat Certified Engineer (RHCE)
+  organization:
+    name: Red Hat
+    url: https://www.redhat.com/en/services/certification/rhce
+  courseOverview: "Advanced Red Hat Enterprise Linux administration, automation, and services."
+
+- name: Red Hat Certified System Administrator (RHCSA)
+  organization:
+    name: Red Hat
+    url: https://www.redhat.com/en/services/certification/rhcsa
+  courseOverview: "Core Red Hat Enterprise Linux system administration skills."
+
+- name: Red Hat OpenStack Cloud Technology Training
+  organization:
+    name: Red Hat
+    url: https://www.redhat.com/en/technologies/linux-platforms/openstack-platform
+  courseOverview: "Private-cloud infrastructure and virtualization with OpenStack."

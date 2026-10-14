@@ -1,0 +1,16 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+degrees:
+- name: B.E. in Computer Engineering
+  icon: fa-graduation-cap
+  timeframe: 2009-2013
+  institution:
+    name: Vishwakarma Government Engineering College (GTU)
+    url: "https://vgecg.ac.in/"

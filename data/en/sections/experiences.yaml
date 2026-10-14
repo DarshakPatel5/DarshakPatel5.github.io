@@ -1,0 +1,100 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences
+experiences:
+- company:
+    name: Improbable Worlds Ltd.
+    url: "https://www.improbable.io"
+    location: Remote
+    overview: "Metaverse and multiplayer-technology company building large-scale virtual worlds and game-server hosting. (Including Zeuz GmbH, acquired by Improbable in 2020, and Improbable MV Ltd.)"
+  positions:
+  - designation: DevOps Engineer
+    start: Mar 2019
+    responsibilities:
+    - Recognized as part of the award-winning DevOps team honored by Google Cloud's 2022 DevOps Awards for building a scalable, cost-efficient, cloud-native CI/CD platform.
+    - Developed and operated multi-region cloud infrastructure using Terraform, Docker Swarm, and Kubernetes, achieving 99.99% uptime for large-scale game-server deployments.
+    - Migrated CI/CD pipelines from Buildkite to GitHub Actions, improving deployment reliability, cutting operational cost by about 20%, and speeding up delivery.
+    - Ran services on Cloud Run, Compute Engine MIGs, and AWS EC2 Auto Scaling Groups, plus Kubernetes and Docker Swarm game-server clusters (EKS, GKE) across bare-metal (Gcore, G-Portal, Hetzner) and cloud, behind global load balancers, Cloud CDN, and Cloud Armor.
+    - Provisioned multi-region GKE clusters in GCP from scratch with Terraform (node pools, networking, and Cloud Armor), handled Kubernetes version and node-pool upgrades, and managed Helm chart releases, updates, and rollouts for platform services.
+    - Operated Cloud SQL and Amazon RDS/Aurora for PostgreSQL (IAM auth, PITR, read replicas, and pg_partman partitioning), Memorystore/Redis, and QuestDB; ran schema migrations with golang-migrate through the Cloud SQL Auth Proxy.
+    - Optimized and modernized backend services (for example, moving from ExpressJS to Fastify) and tuned application performance through load testing, database indexing, and Cloud Run configuration.
+    - Built and maintained a CI/CD-as-a-Service platform that supported hundreds of daily builds and reduced cost per build by over 60%, as highlighted in Google Cloud's DevOps case study.
+    - Set up observability with Prometheus and Google Managed Prometheus (via OpenTelemetry), Grafana, Grafana Cloud, Loki, and Datadog, with alerts routed through Rootly.
+    - Managed on-call operations and incident response for live game-server environments, holding SLA/SLO targets and cutting downtime through root cause analysis.
+    - Worked with engineering teams across regions to align architecture, improve deployments, and speed up performance work.
+
+- company:
+    name: CIGNEX Datamatics
+    url: "https://www.cignex.com"
+    location: Ahmedabad, India
+    overview: "Open-source consulting firm delivering enterprise infrastructure and automation for clients."
+  positions:
+  - designation: DevOps Consultant
+    start: Jan 2017
+    end: Nov 2018
+    responsibilities:
+    - Automated build and deployment pipelines using Jenkins, reducing human error and speeding up releases.
+    - Developed and maintained Puppet manifests and modules to deploy, configure, and manage servers at scale.
+    - Engineered secure and cost-effective infrastructure tailored to client requirements on both on-premises and cloud platforms.
+    - Rolled out Java-based Liferay frameworks with Apache and Varnish Cache to improve web application performance.
+    - Created and maintained Ansible playbooks to automate provisioning, patching, and configuration.
+    - Introduced Nagios-based monitoring to track infrastructure performance and resource utilization.
+    - Collaborated closely with development and QA teams to ensure reliable CI/CD workflows and faster deployments.
+
+- company:
+    name: ibibo Group
+    location: Bengaluru, India
+    overview: "Online travel group (goibibo, redBus)."
+  positions:
+  - designation: DevOps Engineer
+    start: Jun 2016
+    end: Jan 2017
+    responsibilities:
+    - Migrated applications from bare-metal hosted servers to AWS for scalability.
+    - Wrote Ansible modules to automate application deployments.
+    - Built platforms for monitoring, log processing, metrics collection, and data visualization.
+    - Created rapid test and development environments using Vagrant and Docker.
+    - Instrumented application and infrastructure monitoring and alerting with New Relic.
+    - Partnered with Development, QA, Consulting, and Product Management teams.
+    - Worked closely with the development team to capture infrastructure requirements and troubleshoot application issues.
+
+- company:
+    name: I-Link Infosoft
+    location: Ahmedabad, India
+    overview: "IT services firm operating infrastructure across German and US data centers."
+  positions:
+  - designation: Trainee Lead — System Administrator
+    start: Oct 2014
+    end: May 2016
+    responsibilities:
+    - Designed and managed IT infrastructure across German and US data centers, ensuring security, reliability, and compliance.
+    - Automated infrastructure management and deployment with Jenkins and Ansible.
+    - Deployed and maintained virtualization platforms (Citrix Xen, Hyper-V, VMware ESXi) to optimize server utilization.
+    - Hardened environments to Department of Defense (DoD) security guidelines, including centralized authentication (FreeIPA, Active Directory) and SSL/TLS.
+    - Administered HP physical servers via iLO/IPMI and managed network infrastructure (HP ProCurve, pfSense with CARP + HAProxy).
+    - Set up and managed web and application servers (LAMP, Node.js, Elasticsearch, Couchbase) with the ELK Stack for centralized logging.
+    - Established site-to-site IPsec VPN tunnels and ensured high availability for critical services across global environments.
+
+- company:
+    name: Zaptech Solutions & Kalp System
+    url: "https://www.zaptechsolutions.com"
+    location: Ahmedabad, India
+    overview: "IT services and hosting company."
+  positions:
+  - designation: Linux System Administrator / Network & System Engineer
+    start: Oct 2013
+    end: Oct 2014
+    responsibilities:
+    - Installed, configured, and maintained in-house Linux and Windows servers (Apache, FTP, Samba, and related services) for internal and client operations.
+    - Deployed and managed VMware ESXi environments hosting multiple virtual servers for development and production workloads.
+    - Configured and administered private GitLab, mail, proxy, and chat servers for secure and reliable internal communications.
+    - Planned and managed local and wide-area networks, including VLANs, DHCP/static IP schemes, routers, and Cisco switches.
+    - Secured networks with SonicWALL firewalls, including content filtering, VPN tunnels, and security policies.
+    - Performed MySQL database administration, including backups, restores, and optimization.
+    - Provided server and network support for hosted environments (WHM/cPanel) and ensured stable connectivity and uptime.

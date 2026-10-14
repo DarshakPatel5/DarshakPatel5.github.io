@@ -1,0 +1,38 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: DevOps Engineer
+# your company information
+company:
+  name: Improbable
+  url: "https://www.improbable.io"
+
+# a summary about you
+summary: "DevOps Engineer with over 12 years building and running cloud-native infrastructure, CI/CD pipelines, and containerised workloads across **GCP, AWS, and Azure**, using **Terraform, Kubernetes, and Docker Swarm**. My work has held systems at **99.99% uptime**, cut operational costs by up to 30% and build costs by as much as 70%, and sped up releases through automation. I've led complex migrations and worked closely with engineering teams to deliver scalable, secure systems for gaming and enterprise products. I enjoy making infrastructure boring — reproducible, observable, and safe to change — so teams ship fast without carrying the pager. Based in **Ahmedabad, India**, and open to relocating."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "darshakpatel52@hotmail.com"
+
+- name: GitHub
+  icon: "fab fa-github"
+  url: "https://github.com/DarshakPatel5"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/darshak-patel-devops/"
+
+# A resume button linking to the bundled PDF.
+resourceLinks:
+- title: "My Résumé"
+  url: "files/resume.pdf"
